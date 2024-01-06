@@ -84,6 +84,10 @@ line-height: 30px;
 }
 /* main section stylea */
 /* about section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .section-title{
     color: #181818;
 text-align: center;
@@ -104,5 +108,20 @@ line-height: 30px; /* 166.667% */
     border-radius: 10px;
 background: #FFF8F3;
 margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    color: #757575;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+
+}
+.about-info-container .info-title{
+    font-style: normal;
+}
+.about-info{
+text-align: center;
 }
 
